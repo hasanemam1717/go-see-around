@@ -102,17 +102,121 @@
 #find::placeholder{
     color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
+/* ture-text-style-staret-here */
+.popular-turs-container{padding: var(--padding);
+    display: flex;}
+.popular-turs-container div{width: 50%;}
+.turs-text{}
+.turs-text h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;}
+.turs-text h2{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;}
+.ture-list{
+    margin-left: 5%;
+}
+.ture-list li {}
+.btn-primary{
+    border-radius: 8px;
+    background: #FF5400;
+    color: white;
+    padding: 1.8%;
+    border: none;
+    width: 25%;
+    cursor: pointer;}
+.turs-img{}
+.turs-img img{    margin-left: 35%;}
+/* desatination-section-styles-satrt */
+.destination-container{
+    padding: var(--padding);}
+.maldivs-indonesia{    
+    width: 100%;
+    display: flex;
+    gap: 25px;}
+.maldivs{
+    height: 500px;
+    background-image: url(../Images/Rectangle\ 5.png);
+    width: 50%;
+    background-repeat: round;
+    background-size: cover;
+    border-radius: 10px;}
+.maldivs h1{    padding: 27% 37%;
+    color: white;
+    font-size: 45px;}
+.indonesia{
+    height: 500px;
+    background-image:url('../Images/Rectangle\ 8.png');
+    width: 50%;
+    background-repeat: round;
+    background-size: cover;
+    border-radius: 10px;}
+.indonesia h1{padding: 27% 37%;
+    color: white;
+    font-size: 45px;}
+.srilonke-america-kashmir{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 25px;
+    margin: 25px auto;
+}
+.srilonka{height: 400px;
+    background: url('../Images/Rectangle\ 6.png');
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;}
+.srilonka h1{    
+    padding: 30% 33%;
+    color: white;
+    font-size: 45px;}
+.america{height: 400px;
+    background-image:url('../Images/Rectangle\ 7.png');
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: round;}
+.america h1{    
+    padding: 30% 33%;
+    color: white;
+    font-size: 45px;}
+.kashmir{    
+    height: 400px;
+    background-image: url(../Images/Rectangle\ 9.png);
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: round;}
+.kashmir h1{    
+    padding: 30% 33%;
+    color: white;
+    font-size: 45px;}
+.bangladesh-bandorban{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 25px;
+}
+.bangladesh{
+    background: url('../Images/Rectangle\ 11.png');
+    height: 400px;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: round;
+}
+.bangladesh h1{
+    padding: 23% 30%;
+    color: white;
+    font-size: 45px;
+}
+.bandorban{
+    background: url('../Images/Rectangle\ 10.png');
+    height: 400px;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: round;}
+.bandorban h1{
+    padding: 17% 35%;
+    color: white;
+    font-size: 45px;}
 
 
 
@@ -159,7 +263,19 @@
             height: 52px;
             margin-top: 7px;
         }
-        
+        /* .popular-turs-container-unit */
+        .popular-turs-container {
+            padding:0px;
+            flex-direction: column;
+        }
+        .turs-img img {
+            margin-left:0%;
+            width: 100%;
+        }.popular-turs-container div {
+            padding: 5px 45px;
+        }.popular-turs-container div {
+            width: 80%;
+        }
     }
 
 
