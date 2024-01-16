@@ -132,6 +132,19 @@
 /* desatination-section-styles-satrt */
 .destination-container{
     padding: var(--padding);}
+.destination-text {
+    text-align: center;
+    width: 95%;
+ }
+.destination-text h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;}
+.destination-text h2{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;}
 .maldivs-indonesia{    
     width: 100%;
     display: flex;
@@ -276,6 +289,63 @@
         }.popular-turs-container div {
             width: 80%;
         }
+        /* destination-section-start */
+        .destination-container {
+            padding: 20px 20px;
+        }.maldivs-indonesia {
+            gap: 5px;
+            flex-direction: column;
+        }.maldivs {
+            width: 460px;
+            height: 300px;
+            margin: 0px auto;
+        }.maldivs h1 {
+            padding: 25% 32%;
+        }.indonesia{
+            width: 460px;
+            height: 300px;
+            margin: 0px auto;}
+        .indonesia h1{
+            padding: 25% 32%;}
+        .srilonke-america-kashmir {
+            grid-template-columns: 1fr;
+            gap: 5px;
+            margin: 5px auto;
+            }.srilonka {
+                width: 460px;
+                height: 350px;
+                margin: 0px auto;
+            }
+            .srilonka h1{  }
+            .america{width: 460px;
+                height: 350px;
+                margin: 0px auto;}
+            .america h1{ }
+            .kashmir{  width: 460px;
+                height: 350px;
+                margin: 0px auto; }
+            .kashmir h1{    }
+            .bangladesh-bandorban {
+                grid-template-columns:1fr;
+                gap: 5px;
+            }.bangladesh{ width: 460px;
+                height: 350px;
+                margin: 0px auto;
+            }
+            .bangladesh h1 {
+                padding: 30% 22%;
+                color: white;
+                font-size: 45px;
+            }
+            .bandorban{ width: 460px;
+                height: 350px;
+                margin: 0px auto;}
+            .bandorban h1 {
+                padding: 35% 26%;
+                font-size: 45px;
+            }
+            
+            
     }
 
 
