@@ -8,6 +8,7 @@
 }
 /* header-container-styles-start-here */
 /* logo and navber */
+
 .header-container{
     display: flex;
     padding: var(--padding);
@@ -346,7 +347,7 @@
     padding: var(--padding);
     display: flex;
     margin-top: 5%;}
-.simple-text{margin-top: 5%;}
+.simple-text{margin-top: 2%;}
 .simple-text h1{
     color: #131318;
     font-size: 40px;
@@ -369,6 +370,71 @@
 .bangladesh-video video{    width: 90%;
     margin-left: 15%;
     border-radius: 15px;}
+.subscribe-save-container{padding: var(--padding);
+    display: flex;
+    gap: 25px;}
+.subscribe-save-container> div{ }
+.subscribe{    
+    width: 35%;
+    padding: 3%;
+    background: linear-gradient(45deg, #52b6ff, transparent);
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    border: 2px solid #ff9400;}
+.subscribe h1{    margin-top: 5%;}
+.subscribe h2{}
+.subscribe input{padding: 3%;
+    border-radius: 5px;
+    border: navajowhite;}
+.subscribe button{}
+.img-save{    width: 65%;
+    margin-top: -8%;}
+.img-save img{   
+     width: 104%;
+    margin-left: 1%;
+    height: 500px;}
+.div-save-content{ 
+    width: 20%;
+    padding: 1%;
+    height: 13%;
+    transform: skew(53deg, 306deg);
+    text-align: center;
+    position: relative;
+    top: 55%;
+    left: 75%;
+    border-radius: 16px;
+    background: #FF5400;}
+.div-save-content h1{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;}
+.div-save-content h2{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;}
+.footer-copy-right{    
+    display: flex;
+    flex-direction: column;
+    background: #fff2da;}
+.footer-copy-right div{flex-direction: column;
+    text-align: center;
+    padding: 1%;}
+.footer-copy-right div h3{}
+.footer-copy-right div i{    margin-left: 1%;
+    font-size: 45px;
+    padding: 1%;}
+.link-icon{}
+footer>h1{  padding: 1%;
+    text-align: center;  }
+footer>hr{    margin: 40px auto;
+    width: 50%;}
+.last{
+    padding: 20px 10px;
+} 
 
 
 
@@ -388,16 +454,28 @@
 
 
 
-    @media screen and (max-width:600px) {
+@media  screen and (max-width:600px) {
         /* banner-responsive-unit */
-        .header-container {
-            padding: 0;
+        .header-container{
+            padding: 0;    
             flex-direction: column;
-        }.header-container div {
+            gap: 20px;}
+            .banner-content {
+                width: 70%;
+                margin: 5%;
+                text-align: center;
+            }
+            .navber-content ul {
+                padding: 5px 4%;
+            }
+            .logo-content {
+                padding: 5px 15%;
+            }
+            .header-container div {
             width: 100%;
         }
         .banner-container {
-            padding: 20px 20px;
+            padding: 0px 20px;
         }.banner-img {
             padding: 0;
             background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
@@ -533,8 +611,45 @@
                 /* position: relative; */
                 margin: -6% 2%;
             }.button button{display: none;}
-            
-    }
+            .simple-place-container {
+                padding: 0;
+                margin-top: 0%;
+                flex-direction: column;
+            }.simple-place-container div {
+                width: 100%;
+                padding: 0px 10px;
+            }.bangladesh-video video {
+                width: 100%;
+                margin: 1px auto;
+            }.bangladesh-video h1 {
+                left: 0%;
+                color: #532828;
+                top: 145px;
+                text-align: center;
+                font-size: 2rem;
+            }
+            /* -para-section-start- */
+            .div-save-content {
+                display: none;
+            }.subscribe button {
+                margin: 5px auto;
+            }.subscribe-save-container {
+                padding:0;
+                display: flex;
+                gap: 25px;
+                flex-direction: column;
+            }.subscribe-save-container> div {
+                padding: 10px;
+                width: 100%;
+                margin: 3px auto;
+            }.subscribe input {
+                padding: 3%;
+                border-radius: 5px;
+                border: navajowhite;
+                margin-top: 3%;
+            }
+        }
+        
 
 
 
